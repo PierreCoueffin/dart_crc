@@ -2,6 +2,7 @@ part of crc;
 
 const xmodem = XModem._();
 const ccitt = CCITT._();
+const kermit = Kermit._();
 
 abstract class CRC16 {
   const CRC16();
@@ -24,5 +25,14 @@ class CCITT extends CRC16 {
   @override
   int calculate(Uint8List input) {
     return _ccitt(input);
+  }
+}
+
+class Kermit extends CRC16 {
+  const Kermit._();
+
+  @override
+  int calculate(Uint8List input){
+    return _kermit(input);
   }
 }
