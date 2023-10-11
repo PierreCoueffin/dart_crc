@@ -1,4 +1,4 @@
-CRC calculator written in Dart supporting ~~50+~~ 3 different ~~CRC8,~~ CRC16~~, CRC32 and CRC64~~ formulas.
+CRC calculator written in Dart supporting ~~50+~~ 3 different ~~CRC8,~~ CRC16 ~~, CRC32 and CRC64~~ formulas.
 
 ## Features
 
